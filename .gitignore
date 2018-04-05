@@ -29,7 +29,7 @@ coverage
 build/Release
 
 # Function build directory
-.build
+build
 
 # Dependency directories
 node_modules
