@@ -1,5 +1,7 @@
 import {Context} from "aws-lambda";
 
-export default (event: any, context: Context) => {
-    context.done(undefined, "Function is finished yes2");
+const handler = (event: any, context: Context) => {
+    context.done(undefined, "Called the lambda function");
 };
+
+export {handler};
