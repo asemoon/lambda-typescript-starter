@@ -1,1 +1,1 @@
-console.log("Initial Commit");
+const BASE = "THIS IS THE BEGINNING";
