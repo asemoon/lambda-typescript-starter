@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "outDir": ".build/",
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true
+
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
