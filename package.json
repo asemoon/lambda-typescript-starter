@@ -16,6 +16,7 @@
     "lint"
   ],
   "devDependencies": {
+    "@types/dotenv": "^4.0.3",
     "@types/winston": "^2.3.9",
     "pre-commit": "^1.2.2",
     "ts-node": "^5.0.1",
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "@types/aws-lambda": "0.0.34",
+    "dotenv": "^5.0.1",
     "winston": "^2.4.1"
   }
 }

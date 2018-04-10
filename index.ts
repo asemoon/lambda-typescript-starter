@@ -1,3 +1,6 @@
+import dotEnv= require("dotenv");
+dotEnv.config();
+
 import {Context} from "aws-lambda";
 import logger from "./utils/logger";
 
