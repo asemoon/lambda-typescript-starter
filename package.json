@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint --config tslint.json --project tsconfig.json --exclude **/node_modules/**",
-    "start": "node .build/index.js",
+    "local": "node ./build/utils/localStart",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
@@ -16,6 +16,7 @@
     "lint"
   ],
   "devDependencies": {
+    "@types/winston": "^2.3.9",
     "pre-commit": "^1.2.2",
     "ts-node": "^5.0.1",
     "tslint": "^5.9.1",
@@ -26,6 +27,7 @@
     "npm": "~5.6.0"
   },
   "dependencies": {
-    "@types/aws-lambda": "0.0.34"
+    "@types/aws-lambda": "0.0.34",
+    "winston": "^2.4.1"
   }
 }
