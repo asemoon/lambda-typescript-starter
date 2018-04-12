@@ -12,12 +12,14 @@
     ],
     "noUnusedLocals": true,
     "noImplicitAny": true,
+    "rootDir": "./src",
     "outDir": "build/",
     "suppressImplicitAnyIndexErrors": true,
     "skipLibCheck": true
 
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/test"
   ]
 }
