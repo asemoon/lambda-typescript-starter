@@ -1,12 +1,13 @@
 {
   "name": "lambda-typescript-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mehdi Karamnejad",
   "license": "MIT",
   "description": "Boiler plate for lambda functions coded in typescript",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "cleandir ./build",
     "lint": "tslint --config tslint.json --project tsconfig.json --exclude **/node_modules/**",
     "local": "node ./build/utils/localStart",
     "test": "jest"
@@ -17,8 +18,17 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/test/.*)$",
-    "testPathIgnorePatterns":["<rootDir>/build/", "<rootDir>/node_modules/"],
-    "moduleFileExtensions": ["ts", "js", "jsx", "json", "node"]
+    "testPathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "pre-commit": [
     "build",
@@ -28,6 +38,7 @@
     "@types/dotenv": "^4.0.3",
     "@types/jest": "^22.2.2",
     "@types/winston": "^2.3.9",
+    "clean-dir": "^1.0.3",
     "jest": "^22.4.3",
     "pre-commit": "^1.2.2",
     "ts-jest": "^22.4.2",
