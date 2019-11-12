@@ -1,5 +1,7 @@
 # AWS Lambda with Typescript starter kit 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/asemoon/lambda-typescript-starter.svg)](https://greenkeeper.io/)
+
 Fork this repo to write lambda functions on AWS using Typescript. This repo only deals with writing the function itself
 and not the deployment process. For deployment you can use tools such as Jenkins or
 [node-lambda](https://www.npmjs.com/package/node-lambda).
