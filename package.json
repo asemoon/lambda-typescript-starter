@@ -35,7 +35,7 @@
     "lint"
   ],
   "devDependencies": {
-    "@types/aws-lambda": "8.10.39",
+    "@types/aws-lambda": "8.10.41",
     "@types/dotenv": "8.2.0",
     "@types/jest": "24.0.24",
     "@types/winston": "2.4.4",
