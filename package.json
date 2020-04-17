@@ -42,7 +42,7 @@
     "clean-dir": "1.0.3",
     "jest": "24.9.0",
     "pre-commit": "1.2.2",
-    "ts-jest": "24.2.0",
+    "ts-jest": "25.4.0",
     "ts-node": "8.5.4",
     "tslint": "5.16.0",
     "typescript": "3.7.4"
