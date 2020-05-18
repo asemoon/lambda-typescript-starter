@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/aws-lambda": "8.10.39",
     "@types/dotenv": "8.2.0",
-    "@types/jest": "24.0.24",
+    "@types/jest": "25.2.3",
     "@types/winston": "2.4.4",
     "clean-dir": "1.0.3",
     "jest": "24.9.0",
