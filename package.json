@@ -40,7 +40,7 @@
     "@types/jest": "24.0.24",
     "@types/winston": "2.4.4",
     "clean-dir": "1.0.3",
-    "jest": "24.9.0",
+    "jest": "26.0.0",
     "pre-commit": "1.2.2",
     "ts-jest": "24.2.0",
     "ts-node": "8.6.2",
